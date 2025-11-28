@@ -1,0 +1,48 @@
+# Núcleo Matemático y Visión
+numpy
+opencv-python
+pandas
+face_recognition
+dlib
+
+# Audio y Voz
+pyttsx3
+SpeechRecognition
+pyaudio
+openai-whisper
+imageio-ffmpeg
+
+# Inteligencia Artificial y Neuromórfica
+tensorflow
+nengo
+nengo-dl
+ollama
+
+# Utilidades
+setuptools
+requests
+```
+
+---
+
+### 🛠️ Instrucciones de Instalación (Para tu README)
+
+En Windows, instalar `dlib` y `face_recognition` suele dar error si no se hace en orden. Aquí tienes los pasos exactos para que a nadie le falle tu código:
+
+#### 1. Prerrequisitos (Antes de instalar las librerías)
+Tu proyecto depende de dos softwares externos que no se instalan con pip:
+
+*   **Ollama:** Debes tener instalado Ollama (https://ollama.com/) y haber ejecutado `ollama pull tinyllama`.
+*   **Visual Studio Build Tools (C++):** Necesario para compilar `dlib` en Windows. (Si ya te funciona `face_recognition`, ya lo tienes, pero avísalo en el GitHub).
+
+#### 2. Comandos de Instalación
+Para instalar todo de una vez:
+
+```bash
+pip install -r requirements.txt
+```
+
+***Nota para usuarios de Windows:** Si falla la instalación de `dlib`, intentad instalar la versión pre-compilada de conda:*
+```bash
+conda install -c conda-forge dlib
+pip install face_recognition
