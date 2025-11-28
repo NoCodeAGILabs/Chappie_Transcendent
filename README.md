@@ -21,5 +21,5 @@ El futuro es de quien pregunta.
 ## Uso en 20 segundos
 ```bash
 pip install -r requirements.txt
-python chappie.py
+python Chappie_Transcendent.py
 
